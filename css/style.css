@@ -1,3 +1,9 @@
+.title {
+  font-weight: bold;
+  font-size: 60px;
+  color: green;
+}
+
 .box {
   height: 300px;
   width: 300px;
@@ -34,10 +40,66 @@
   margin-bottom: 20px;
 }
 
-.cross, .nought , .cross:focus,.nought:focus{
+.cross, .nought, .cross:focus, .nought:focus {
   background: transparent;
   border: none;
   outline: none;
   box-shadow: none;
   font-size: 40px;
+}
+
+.back {
+  margin: 20px 50%;
+  transform: translate(-50%, 0);
+}
+
+.back:focus, .resetbtn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.cell {
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+.cell:hover {
+  background-color: rgb(136, 134, 134);
+}
+
+.cell:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.updown {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: white;
+}
+
+.leftright {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: white;
+}
+
+.middle {
+  border: 1px solid;
+  border-color: white;
+}
+
+.scores {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 35px;
+}
+
+.main {
+  margin-top: -20px;
 }
