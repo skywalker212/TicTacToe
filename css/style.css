@@ -1,0 +1,43 @@
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(166, 166, 166);
+  margin: 40px auto;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: rgb(139, 136, 136);
+  border-width: 5px;
+}
+
+.textbox {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.player {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.one:active, .one:after, .one:focus, .two:active, .two:after, .two:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.choosemark {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.cross, .nought , .cross:focus,.nought:focus{
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 40px;
+}
